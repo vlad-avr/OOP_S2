@@ -18,7 +18,7 @@ public class CheckServlet extends HttpServlet{
 		}else if(rb.equals("no") && lb.equals("no")){
 			res = "Isufficient balls count -> ball check failed";
 		}else {
-			res = "Results uncertain -> provide more precise balls data";
+			res = "Results uncertain -> provide more balls data";
 		}
 		
 		PrintWriter out = resp.getWriter();
