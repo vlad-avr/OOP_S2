@@ -7,6 +7,6 @@
   
   <servlet-mapping>
   	<servlet-name>test</servlet-name>
-  	<url-pattern>/ballscheck</url-pattern>
+  	<url-pattern>/connect</url-pattern>
   </servlet-mapping>
 </web-app>
